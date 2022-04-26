@@ -1,0 +1,29 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+ion-header{
+  --ion-background-color: rgb(130, 130, 130);
+}
+
+ion-title{
+  color: white;
+  font-weight: 700;
+}
+
+ion-content{
+  --ion-background-color: teal;
+}
+
+ion-label{
+  color: aliceblue;
+  font-size: large;
+  margin-top: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

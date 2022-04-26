@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/login"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Hệ thống ATM
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-label>Tài khoản: {{this.usr.email}} </ion-label>
+    <ion-button (click)="gotoInfo()" id="viewInfo">Xem thông tin tài khoản</ion-button>
+    <ion-button>Thoát</ion-button>
+  </div>
+</ion-content>

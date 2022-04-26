@@ -1,0 +1,43 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+ion-header{
+  --ion-background-color: rgb(130, 130, 130);
+}
+
+ion-title{
+  color: white;
+  font-weight: 700;
+}
+
+ion-content{
+  --ion-background-color: teal;
+}
+
+ion-label{
+  color: aliceblue;
+  font-size: large;
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ion-button{
+  width: 250px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 4px;
+  --ion-color-primary: rgb(255, 153, 0);
+  font-weight: 700;
+}

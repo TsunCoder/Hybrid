@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Hệ thống ATM</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="login">
+    <ion-label>Đăng nhập</ion-label>
+      <ion-input
+        class="emailInput"
+        [(ngModel)] = "inputUsername"
+        type="email"
+        placeholder="Email"
+      ></ion-input>
+      <ion-input
+        class="passwordInput"
+        [(ngModel)] = "inputPass"
+        type="password"
+        placeholder="Password"
+      ></ion-input>
+      <div class="btn">
+        <ion-button (click) = "login()" class="btnLogin">OK</ion-button>
+        <ion-button class="btnAdd" (click) = "addUsrs()">Thêm</ion-button>
+        <ion-button class="btnRemove" (click) = "removeUsr()">Xóa</ion-button>
+        <ion-button class="btnAll" (click) = "showAllUsrs()">Xem tất cả</ion-button>
+      </div>
+    
+  </div>
+</ion-content>
