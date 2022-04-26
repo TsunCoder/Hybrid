@@ -17,4 +17,8 @@ export class HomePage {
   gotoInfo(){
     this.router.navigateByUrl('/info')
   }
+
+  gotoCamera(){
+    this.router.navigateByUrl('/camera');
+  }
 }
